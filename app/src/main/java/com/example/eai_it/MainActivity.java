@@ -10,7 +10,6 @@ import android.content.Intent;
 import com.example.eai_it.ui.login.LoginActivity;
 
 
-
 public class MainActivity extends AppCompatActivity {
 Button login1;
     @Override

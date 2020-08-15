@@ -5,6 +5,7 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -23,17 +24,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.eai_it.R;
-import com.example.eai_it.ui.login.LoginViewModel;
-import com.example.eai_it.ui.login.LoginViewModelFactory;
+
 
 public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
-
+    Button login;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
         loginViewModel = ViewModelProviders.of(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
@@ -128,4 +129,5 @@ public class LoginActivity extends AppCompatActivity {
     private void showLoginFailed(@StringRes Integer errorString) {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
     }
+
 }
