@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">EAT_IT</string>
+
+    //AdmItemAdd
+        <string name="Text1">Insert New Food</string>
+        <string name="Text2">Name :</string>
+        <string name="Text3">Description :</string>
+        <string name="Text4">Price :</string>
+        <string name="PlainText1">Enter Food Name</string>
+        <string name="PlainText2">Enter Food Description</string>
+        <string name="PlainText3">Enter Food Price</string>
+        <string name="btn1">LogOut</string>
+        <string name="btn2">Choose Image</string>
+        <string name="btn3">Insert</string>
+
+
+    //AdmItemProfile
+
+        <string name="Text5">Chicken Sandwiches</string>
+        <string name="Text6">A chicken sandwich is a sandwich that
+            typically consists of boneless, skinless chicken breast
+            served between slices of bread, with pickles, on a bun,
+            or on a roll. Variations on the "chicken sandwich" include
+            the chicken burger or chicken on a bun, hot chicken, and
+            chicken salad sandwich.
+        </string>
+        <string name="Text7">RS: 650.00</string>
+        <string name="btn4">Update</string>
+        <string name="btn5">Delete</string>
+        //logOut
+
+
+
+
+    //AdminHome
+        <string name="Text8">WELCOME</string>
+        <string name="Text9">Admin Portal</string>
+        <string name="Text10">Items</string>
+        <string name="Text11">Customers</string>
+        <string name="Text12">Drivers</string>
+        //logout
+
+    //AdUpdateItems
+        <string name="Text13">Update Item</string>
+        //name
+        //description
+        //price
+        <string name="PlainText4">Chicken sandwich</string>
+        <string name="PlainText5">A chicken sandwich is a sandwich that
+            typically consists of boneless, skinless chicken breast served
+            between slices of bread, with pickles, on a bun, or on a roll.
+            Variations on the "chicken sandwich" include the chicken burger
+            or chicken on a bun, hot chicken, and chicken salad sandwich.
+        </string>
+        <string name="PlainText6">650.00</string>
+        <string name="btn6">Update</string>
+        //logout
+
+
+
+    //ItemView
+    <string name="Text14">Recipes</string>
+    <string name="Text15">Burger</string>
+    <string name="Text16">Pizza</string>
+    <string name="Text17">Drinks</string>
+    <string name="Text18">Sandwiches</string>
+    <string name="btn7">Search</string>
+    <string name="btn8">New</string>
+    <string name="PlainText7">Search item</string>
+    //logout
+
+
+
+</resources>
