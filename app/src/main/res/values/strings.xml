@@ -9,42 +9,4 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="cart_edit">"Edit"</string>
-    <string name="order_now">"Confirm Order"</string>
-    <string name="meal_name_1">"chocolate cup cake"</string>
-    <string name="meal_name_2">"strawberry waffles"</string>
-    <string name="quantity_meal_1">"X5"</string>
-    <string name="Quantity_meal_2">"X5"</string>
-    <string name="meal_price_1">"RS.550"</string>
-    <string name="meal_price_2">"RS.350"</string>
-    <string name="meal_total_">"RS.900"</string>
-    <string name="total_price_">"RS.550"</string>
-    <string name="total_price_1">"Total Price = "</string>
-    <string name="qun_change">"5"</string>
-    <string name="meal_price_">"RS.550"</string>
-    <string name="meal_price_3">"RS.350"</string>
-    <string name="btn_add">"+"</string>
-    <string name="btn_sub">"-"</string>
-    <string name="btn_con">"confirm"</string>
-    <string name="btn_rem1">"remove"</string>
-    <string name="cash_">"cash on delivery"</string>
-    <string name="card">"online payment"</string>
-    <string name="okay">"go"</string>
-
-    <string name="name_cus">"Name"</string>
-    <string name="phone_cus">"Contact Number"</string>
-    <string name="add_cus_">"Address"</string>
-    <string name="postal_cus">"postal code"</string>
-    <string name="email_cus">"Email"</string>
-    <string name="topic_1_1">"cash on delivery"</string>
-
-    <string name="cr_name">"card holder name"</string>
-    <string name="cr_number">"card number"</string>
-    <string name="cr_ex">"MM/YY"</string>
-    <string name="cr_cvc">"cvc"</string>
-    <string name="cr_de">"credit or debit card details"</string>
-
-
-
-
 </resources>
