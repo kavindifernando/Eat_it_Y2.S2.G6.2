@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pricemal2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/interface1"
+    tools:context=".Cart">
+
+    <Button
+        android:id="@+id/mealedit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="179dp"
+        android:text="@string/cart_edit"
+        android:background="@drawable/buttonp2"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stawberrywaff"
+        app:layout_constraintTop_toBottomOf="@+id/mealedit1" />
+
+    <Button
+        android:id="@+id/mealedit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="408dp"
+        android:text="@string/cart_edit"
+        android:background="@drawable/buttonp2"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cococupcake"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/confirm1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="589dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="94dp"
+        android:background="@drawable/button3p"
+        android:text="@string/order_now"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        tools:layout_editor_absoluteX="411dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteY="731dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/cococupcake"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="266dp"
+        app:layout_constraintBottom_toTopOf="@+id/confirm1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/choccupcake" />
+
+    <ImageView
+        android:id="@+id/stawberrywaff"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/confirm1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cococupcake"
+        app:srcCompat="@drawable/waff" />
+
+    <TextView
+        android:id="@+id/namemeal1"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="79dp"
+        android:text="@string/meal_name_1"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/mealedit1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cococupcake"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/quant1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="187dp"
+        android:text="@string/quantity_meal_1"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/namemeal2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cococupcake"
+        app:layout_constraintTop_toBottomOf="@+id/namemeal1" />
+
+    <TextView
+        android:id="@+id/namemeal2"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/meal_name_2"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/mealedit2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stawberrywaff"
+        app:layout_constraintTop_toBottomOf="@+id/mealedit1" />
+
+    <TextView
+        android:id="@+id/quant2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="254dp"
+        android:text="@string/Quantity_meal_2"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stawberrywaff"
+        app:layout_constraintTop_toBottomOf="@+id/namemeal2" />
+
+    <TextView
+        android:id="@+id/pricemeal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="153dp"
+        android:text="@string/meal_price_2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/namemeal2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cococupcake"
+        app:layout_constraintTop_toBottomOf="@+id/quant1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="224dp"
+        android:text="@string/meal_price_1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stawberrywaff"
+        app:layout_constraintTop_toBottomOf="@+id/quant2" />
+
+    <TextView
+        android:id="@+id/pricetag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="64dp"
+        android:text="@string/total_price_1"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/cococupcake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/price11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="78dp"
+        android:text="@string/meal_total_"
+        app:layout_constraintBottom_toTopOf="@+id/namemeal1"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pricetag"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
